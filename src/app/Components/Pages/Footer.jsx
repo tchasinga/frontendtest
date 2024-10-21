@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 export default function Footer() {
   return (
     <div className=' h-[236px] bgFooter flex flex-col py-[2%] items-center justify-center'>
-      <div className="max-w-7xl mx-auto flex items-center justify-center gap-5 w-full">
+      <div className="max-w-7xl mx-auto flex items-center justify-evenly w-full">
 
           <div className="">
             <h1 className='text-slate-950 font-medium py-3'>Bel of mail ons</h1>   
@@ -13,7 +13,7 @@ export default function Footer() {
             klantenservice@knuswonen.nu</p>
           </div>
 
-          <div className="flex-1">
+          <div className="">
             <h1 className='text-slate-950 font-medium py-3'>Openingstijden</h1>   
             <p>Maandag t/m donderdag van <br/>  8:30  tot 16:30 uur.
             Vrijdag van 8:30  tot 12:00 uur</p>
@@ -27,7 +27,7 @@ export default function Footer() {
 
           <div className="">
             <h1 className='text-slate-950 font-medium py-3'>Volg ons op onze sociale kanalen</h1>   
-            <div className="flex justify-center items-center gap-3 text-orange-500 text-2xl">
+            <div className="flex justify-start items-start gap-3 text-orange-500 text-sm font-normal">
                 <FaFacebookF />
                 <FaLinkedinIn />
             </div>
