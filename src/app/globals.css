@@ -15,3 +15,21 @@
   object-fit: fill;
 }
 
+
+.bg-blue-900{
+  background-color:  #9AA4D9;
+}
+
+.mygridtemplateTwoIng {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.childchecking:first-child{
+  background-color: blue;
+}
+
+.bgFooter{
+  background-color: #E5E5E5;
+}
