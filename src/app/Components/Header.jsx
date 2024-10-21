@@ -18,7 +18,7 @@ export default function Navbars() {
   ];
 
   return (
-    <nav className="fixed font-poppins font-sans w-full left-0 top-0 z-[9999] mypad myblick bg-whiter">
+    <nav className="fixed font-poppins font-sans w-full left-0 top-0 z-[9999] mypad myblick bg-white">
       <div className="flex items-center justify-between max-w-6xl mx-auto">
         <div className="mx-7 w-[150px]">
           <Image src={mylogo} alt="logo" className=" w-[150px] object-fill" />

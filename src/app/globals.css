@@ -6,3 +6,11 @@
   background: rgba(255, 255, 255, 0.486);
   backdrop-filter: blur(5px);
 }
+
+.bgImga{
+  background-image: url(./Img/makingneeds.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+}
