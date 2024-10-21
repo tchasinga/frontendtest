@@ -6,14 +6,14 @@ export default function Etension() {
     <div>
 
      <div className="">
-     <h1 className="text-[24px] text-white font-normal">Waarmee kunnen we je helpen?</h1>
+     <h1 className="text-[24px] text-white font-semibold">Waarmee kunnen we je helpen?</h1>
      </div>
 
-      <div className="flex justify-center items-center gap-4 w-full flex-wrap">
+      <div className="flex justify-center items-center gap-4 w-full flex-wrap text-blue-950 font-medium">
         {
           Firstdatacollection.map((items, index) => (
-            <div key={index} className="bg-white rounded-lg p-2  m-4">
-              <div className="flex items-center justify-start gap-2 w-[200px]">
+            <div key={index} className="bg-white rounded-lg p-3  m-4">
+              <div className="flex items-center justify-start gap-2 w-[250px]">
                   <div className="text-2xl">
                     {items.icons}
                   </div>

@@ -61,7 +61,7 @@ export default function Heros() {
      </defs>
   </svg>
       </div>
-      <div className="absolute bottom-0 right-0 left-0 flex flex-col items-center justify-center">
+      <div className="absolute bottom-4 right-0 left-[110px] flex flex-col items-center justify-center">
          <Etension />
       </div>
     </div>
