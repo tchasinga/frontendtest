@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className=' h-[236px] bgFooter flex flex-col py-[2%] items-center justify-center'>
+    <div className='  lg:h-[236px] md:h-[100%] sm:h-[100%] bgFooter flex flex-col py-[2%] items-center justify-center'>
       <div className="max-w-7xl mx-auto flex items-center justify-evenly w-full">
 
           <div className="">
