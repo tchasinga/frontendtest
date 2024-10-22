@@ -1,4 +1,5 @@
 import Aboutus from "./Components/Pages/Aboutus";
+import Conclusion from "./Components/Pages/Conclusion";
 import Details from "./Components/Pages/Details";
 import Footer from "./Components/Pages/Footer";
 import Heros from "./Components/Pages/Heros";
@@ -12,6 +13,7 @@ export default function Home() {
       <Details />
       <More />
       <Footer /> 
+      <Conclusion />
     </div>
   );
 }
