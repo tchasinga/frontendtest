@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "DataBase",
+  title: "DataBalk",
   description: "A tech developer service offers expert guidance and solutions in software development, encompassing areas like web and mobile app creation, cloud computing, and cyber-security. These services typically include custom software development, system integration, and IT consulting to optimize",
   openGraph: {
     type: "website",
