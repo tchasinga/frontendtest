@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myblicker{
+  background: rgba(255, 255, 255, 0.486);
+  backdrop-filter: blur(5px);
+}
+
+.bgImga{
+  background-image: url(./Img/makingneeds.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+}
+
+
+.bg-blue-900{
+  background-color:  #9AA4D9;
+}
+
+.mygridtemplateTwoIng {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.childchecking:first-child{
+  background-color: blue;
+}
+
+.bgFooter{
+  background-color: #E5E5E5;
+}
+
+@media only screen and (max-width: 834px) {
+  .responsive {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .responsiveing {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  
+
+  
+}
