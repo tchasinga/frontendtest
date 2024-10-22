@@ -45,5 +45,12 @@
     text-align: center;
     padding: 20px;
   }
+
+  .responsiveing {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
   
 }

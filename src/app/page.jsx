@@ -9,6 +9,8 @@ export default function Home() {
     <div className="">
       <Heros />
       <Aboutus />
+      <Details />
+      <More />
     </div>
   );
 }

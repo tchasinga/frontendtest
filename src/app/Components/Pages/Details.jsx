@@ -5,13 +5,13 @@ import Frame from '../../Img/Frame.jpg'
 
 export default function Details() {
   return (
-    <div className=" h-[572px] bg-blue-900 flex flex-col items-center justify-center">
+    <div className="  bg-blue-900 flex flex-col items-center justify-center lg:h-[572px] md:h-[100%] sm:h-[100%]">
       <div className="max-w-5xl mx-auto ">
         <div className="text-start text-3xl font-medium py-3 text-blue-700">
           <h1>Laatste nieuws</h1>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto responsiveing">
         {Secondcollection.map((items, index) => (
           <div 
             key={index} 

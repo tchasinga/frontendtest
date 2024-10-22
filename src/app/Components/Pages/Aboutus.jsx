@@ -10,7 +10,7 @@ export default function Aboutus() {
         <div className="relative lg:w-[50%] md:w-full sm:w-full">
           <div className="lg:w-[496px] lg:h-[372px] w-full h-auto">
             <Image src={ImgOne} alt="logoOne" className="rounded-2xl w-full h-auto" />
-            <div className="absolute left-[-100px] z-[-9999] right-0 bottom-[150px] hidden lg:block">
+            <div className="absolute left-[-100px] z-[-9999] right-0 bottom-[170px] hidden lg:block">
               <svg
                 width="269"
                 height="271"
