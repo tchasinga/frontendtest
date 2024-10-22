@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+# 📗 Table of Contents
 
-First, run the development server:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 📖 DataBalk frontend test<a name="about-project"></a>
+
+Frontend testing is a crucial part of web development, ensuring that the user interface functions as intended. It offers several benefits:
+
+Reliability: Tests help identify and fix bugs early, ensuring a smoother user experience.
+Efficiency: Automated tests can be run repeatedly, saving time compared to manual testing.
+Maintainability: Well-written tests make it easier to refactor code or add new features without introducing new issues.
+Collaboration: Tests provide clear documentation of how the application should behave, aiding in team collaboration and understanding.
+In essence, frontend testing is a key factor in building high-quality, robust web applications.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Next.js</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">TailwindCSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/javascript">JavaScript</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **Nice UI**
+- **Responsive design**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+>Click this Link to View [Live Version](https://frontendtest-flax.vercel.app)
+
+
+## A demonstration video for the presentation
+ 
+ >You can view the presentation demo and the website's operating principle in this video [See the video](https://www.loom.com/share/8700eec9d72a40849a0645509e635e99?sid=379a9780-422b-49b8-9753-b6016eb23c71)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+- Clone this project.
+- Open it in VS code.
+- Deploy it on a browser using a live-server plug-in.
+
+### Prerequisites
+
+In order to add this project to your repo you need:
+
+Git
+A GitHub account &
+VS-Code
+
+
+### Setup
+
+Clone this repository to your desired folder by using the `git clone` command:
+
+```
+git clone https://github.com/tchasinga/frontendtest.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Run the following command to install the dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> Run the following command to start the development server
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Project can be used in any browser
 
-## Deploy on Vercel
+### Run tests
+```
+There are no tests to run.
+```
+### Deployment
+```
+You can deploy this project by using VS-code and injecting it to a browser through a local live server
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 👥 Authors <a name="authors"></a>
+
+👤 **Tchasinga**
+
+- GitHub: [@githubhandle](https://github.com/tchasinga)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> **Enhanced Visual Appeal and some backend function**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [here the page](https://github.com/tchasinga/frontendtest/issues/3).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please give it a star ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> I want to express my sincere gratitude to DataBalk for giving me this fantastic chance to broaden my knowledge and expertise in the web development industry. Your dedication to promoting education and career development is incredibly admirable. The tools and support offered are very appreciated, as this test session has been an invaluable experience. I appreciate your commitment to provide such worthwhile job opportunities. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
