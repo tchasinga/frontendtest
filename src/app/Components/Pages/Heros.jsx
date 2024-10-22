@@ -7,8 +7,8 @@ export default function Heros() {
       {/* first svg */}
       <div className="absolute right-0 bottom-0">
         <svg
-          width="314"
-          height="538"
+          
+          className='lg:w-[314px] lg:h-[538px] md:w-[100%] sm:w-[340px]'
           viewBox="0 0 214 538"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -50,8 +50,8 @@ export default function Heros() {
       </div>
 
     {/* my last svg design ... */}
-    <div className="absolute bottom-0 right-0 left-0 flex flex-col items-center justify-center">
-      <svg width="1088" height="211" viewBox="0 0 1088 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="absolute bottom-0 right-0 left-0 flex flex-col items-center justify-center ">
+      <svg className='lg:w-[1088px] lg:h-[211px] md:w-[100%] sm:w-[40px]' viewBox="0 0 1088 211" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path class="wave" d="M542.651 543.818C669.462 559.813 966.58 573.209 1068.46 378.913C1146.48 174.423 964.145 116.005 798.414 103.929C555.621 87.9768 607.707 34.7851 371.265 4.24617C162.725 -21.4766 14.4774 85.6485 1.24134 210.401C-11.9947 335.154 94.1089 406.423 164.819 441.264C235.529 476.106 370.386 522.679 542.651 543.818Z" fill="url(#paint0_linear_5_102)" fill-opacity="0.8"/>
      <defs>
     <linearGradient id="paint0_linear_5_102" x1="974.855" y1="135.739" x2="739.562" y2="668.843" gradientUnits="userSpaceOnUse">
@@ -61,7 +61,7 @@ export default function Heros() {
      </defs>
   </svg>
       </div>
-      <div className="absolute bottom-4 right-0 left-[110px] flex flex-col items-center justify-center">
+      <div className="absolute bottom-4 right-0 lg:left-[110px] md:left-0 flex flex-col items-center justify-center">
          <Etension />
       </div>
     </div>

@@ -8,10 +8,6 @@ export default function Home() {
   return (
     <div className="">
       <Heros />
-      <Aboutus />
-      <Details />
-      <More />
-      <Footer /> 
     </div>
   );
 }
