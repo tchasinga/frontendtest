@@ -23,9 +23,15 @@
 - [📝 License](#license)
 
 
-# 📖 Photo-gallery<a name="about-project"></a>
+# 📖 DataBalk frontend test<a name="about-project"></a>
 
-**Photo galleries** create a visually stimulating experience, drawing visitors' attention and making the content more appealing, By offering an interactive and enjoyable browsing experience, photo galleries encourage users to stay longer on the website.
+Frontend testing is a crucial part of web development, ensuring that the user interface functions as intended. It offers several benefits:
+
+Reliability: Tests help identify and fix bugs early, ensuring a smoother user experience.
+Efficiency: Automated tests can be run repeatedly, saving time compared to manual testing.
+Maintainability: Well-written tests make it easier to refactor code or add new features without introducing new issues.
+Collaboration: Tests provide clear documentation of how the application should behave, aiding in team collaboration and understanding.
+In essence, frontend testing is a key factor in building high-quality, robust web applications.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,12 +56,12 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
->Click this Link to View [Live Version](https://maphoto-zagallery.netlify.app/)
+>Click this Link to View [Live Version](https://frontendtest-flax.vercel.app)
 
 
 ## A demonstration video for the presentation
  
- >You can view the presentation demo and the website's operating principle in this video [See the video](https://www.loom.com/share/622c32abd6f445e0a7b721cf93dfe932?sid=965d7fdc-2f0b-4f2d-83f3-259575aff415)
+ >You can view the presentation demo and the website's operating principle in this video [See the video](https://www.loom.com/share/8700eec9d72a40849a0645509e635e99?sid=379a9780-422b-49b8-9753-b6016eb23c71)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,16 +78,28 @@ To get a local copy up and running, follow these steps.
 In order to add this project to your repo you need:
 
 Git
-A GitHub account
+A GitHub account &
 VS-Code
-<a href="https://www.w3schools.com/">HTML, CSS, and JavaScript linters</a>
+
 
 ### Setup
 
 Clone this repository to your desired folder by using the `git clone` command:
 
 ```
-git clone https://github.com/tchasinga/Photo-gallery.git
+git clone https://github.com/tchasinga/frontendtest.git
+```
+
+> Run the following command to install the dependencies
+
+```
+npm install
+```
+
+> Run the following command to start the development server
+
+```
+npm run dev
 ```
 
 
@@ -120,7 +138,7 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [here the page](https://github.com/tchasinga/Photo-gallery/issues/2).
+Feel free to check the [here the page](https://github.com/tchasinga/frontendtest/issues/3).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +150,7 @@ If you like this project, please give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I want to express my sincere gratitude to DataBalt for giving me this fantastic chance to broaden my knowledge and expertise in the web development industry. Your dedication to promoting education and career development is incredibly admirable. The tools and support offered are very appreciated, as this training session has been an invaluable experience. We appreciate your commitment to provide such worthwhile learning opportunities. 
+> I want to express my sincere gratitude to DataBalk for giving me this fantastic chance to broaden my knowledge and expertise in the web development industry. Your dedication to promoting education and career development is incredibly admirable. The tools and support offered are very appreciated, as this test session has been an invaluable experience. I appreciate your commitment to provide such worthwhile job opportunities. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
