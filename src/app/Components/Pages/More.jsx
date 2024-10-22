@@ -4,10 +4,10 @@ import NewMore from '../../Img/OtherOone.png'
 
 export default function More() {
   return (
-    <div className=" flex flex-col justify-center items-center max-w-5xl  mx-auto h-[500px]">
-    <div className="flex flex-row-reverse justify-between w-full">
+    <div className=" flex flex-col justify-center items-center max-w-5xl  mx-auto lg:h-[500px] md:h-[100%] sm:h-[100%]">
+    <div className="flex flex-row-reverse justify-between w-full responsive">
       {/* first flex box side */}
-      <div className="relative w-[50%]">
+      <div className="relative w-[50%] w-full">
         <div className="">
           <Image src={NewMore} alt="logoOne" className="rounded-2xl w-[498px] h-[379px] w-full" />
           <div className="absolute left-[400px] bottom-[-50px] z-[-9999] right-0 ">
@@ -25,7 +25,7 @@ export default function More() {
         </div>
       </div>
 
-      <div className="flex flex-col w-[50%]">
+      <div className="flex flex-col  w-full">
           <div className="py-4 text-3xl font-bold">
               <h1 className='text-orange-500 '>We verbeteren onze woningen</h1>
           </div>
@@ -45,7 +45,7 @@ export default function More() {
                <p className="">maatregelen?</p>
           </div>
 
-          <div className="p-4 bg-blue-500 rounded-2xl text-sm font-medium text-white w-[30%] flex items-center justify-center text-center">
+          <div className="p-4 bg-blue-500 rounded-2xl text-sm font-medium text-white w-[50%] flex items-center justify-center text-center">
                <p>Lees meer</p>
           </div>
       </div>
